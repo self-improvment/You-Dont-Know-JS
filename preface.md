@@ -9,23 +9,24 @@ If this is your first time reading these books, I'm glad you're here. Prepare fo
 
 If you are new to programming or JS, be aware that these books are not intended as a gentle "intro to JavaScript." This material is, at times, complex and challenging, and goes much deeper than is typical for a first-time learner. You're welcome here no matter what your background is, but these books are written assuming you're already comfortable with JS and have at least 6–9 months experience with it.
 
-## The Parts
+## بخش های کتاب
 
-These books approach JavaScript intentionally opposite of how *The Good Parts* treats the language. No, that doesn't mean we're looking at *the bad parts*, but rather, exploring **all the parts**.
+رویکرد این کتاب فقط این نیست که در جاوااسکریپت چگونه بخش های خوب کار میکنند . البته این بدان معنا نیست که ما میخواهیم فقط به بخش های بد بپردازیم.بلکه میخواهیم همه بخش هارو پوشش دهیم.
 
-You may have been told, or felt yourself, that JS is a deeply flawed language that was poorly designed and inconsistently implemented. Many have asserted that it's the worst most popular language in the world; that nobody writes JS because they want to, only because they have to given its place at the center of the web. That's a ridiculous, unhealthy, and wholly condescending claim.
+شاید  به شما گفته شده باشد یا خودتان احساس کرده باشید که جاوااسکریپت یه زبان کاملا ناقص است
+که خیلی ضعیف طراحی شده و به طور ناقصی اجرا شده است. بسیاری ادعا کرده اند که این بدترین زبان محبوب جهان است که هیچکس آنرا به این دلیل که جاوااسکریپت را دوست دارد نمینویسد بلکه فقط میخواهند جایگاه خود را در مرکز وب حفظ کنند.این یک ادعای مضحک ، سمی و کاملا تحقیرآمیز است.
 
-Millions of developers write JavaScript every day, and many of them appreciate and respect the language.
+میلیون‌ها توسعه‌دهنده هر روز جاوا اسکریپت می‌نویسند و بسیاری از آن‌ها از این زبان قدردانی می‌کنند و به آن احترام می‌گذارند.
+مانند هر زبان بزرگ دیگری، این زبان همانطور که بخش های درخشان خودش را دارد زخم هایی هم دارد .
+حتی خود سازنده جاوا اسکریپت، برندان آیک ، برخی از آن قسمت‌ها را اشتباه می‌داند.اما او اشتباه می کند: آنها اصلاً اشتباه نبودند. جاوااسکریپت چیزی هست که الان هست نه اون چیزی که او آن زمان نوشته است.-------------فراگیرترین و در نتیجه تأثیرگذارترین زبان برنامه نویسی جهان—----------دقیقا به خاطر تمام آن بخش ها…..
+این دروغ را نخرید که فقط باید مجموعه کوچکی از بخش های خوب این زبان را یادبگیرید و  استفاده کنید و در عین حال از همه بخش های بد آن اجتناب کنید.
+این جملات دروغ که " ایکس  همان روش جدید ایگرگ است " را گوش نکنید.دروغه که برخی از ویژگی های جدید زبان فوراً تمام استفاده از ویژگی های قبلی را به عنوان یک چیز منسوخ شده از بین میبرد و استفاده از اون احمقانه است.
+به حرف این شخص گوش نده! وقتی میاد میگه که  کد شما مدرن نیست چون  از فلان ویژگی جدید js هنوز استفاده نکردی  درصورتی که اون ویژگی تازه رو stage صفر هست و چند هفتس که مطرح شده !
+تک تک بخش های جاوااسکریپت مفید هستند. بغضی بخش ها مفیدتر از بخش های دیگر هستند.برخی از قسمت ها نیز، نیاز به دقت و  توجه بیشتری دارند.
+به نظر من تلاش برای تبدیل شده به یک توسعه‌دهنده واقعاً مؤثر جاوا اسکریپت در حالی که تنها از بخش های کوچکی از آنچه این زبان ارائه می‌کند استفاده می‌کند، پوچ و بی فایده است.
+آیا می توانید یک کارگر ساختمانی را با جعبه ابزار پر از ابزار تصور کنید که فقط از چکش خود استفاده می کند و پیچ گوشتی یا متر نوار را به عنوان یک ابزار نامرغوب  به سخره می گیرد؟ این واقعا احمقانه است.
+ادعای بی‌قید من این است که شما باید تمام بخش‌های جاوا اسکریپت را یاد بگیرید.و  هرجا که لازم بود، از آنها استفاده کنید! اگه بخوام کی خیلی جسورانه یک پیشنهادی به شما بکنم اینه که وقتشه که هر کتاب جاوااسکریپیتو که غیر از این را  به شما میگوید دور بریزید.
 
-Like any great language, it has its brilliant parts as well as its scars. Even the creator of JavaScript himself, Brendan Eich, laments some of those parts as mistakes. But he's wrong: they weren't mistakes at all. JS is what it is today—the world's most ubiquitous and thus most influential programming language—precisely because of *all those parts*.
-
-Don't buy the lie that you should only learn and use a small collection of *good parts* while avoiding all the bad stuff. Don't buy the "X is the new Y" snake oil, that some new feature of the language instantly relegates all usage of a previous feature as obsolete and ignorant. Don't listen when someone says your code isn't "modern" because it isn't yet using a stage-0 feature that was only proposed a few weeks ago!
-
-Every part of JS is useful. Some parts are more useful than others. Some parts require you to be more careful and intentional.
-
-I find it absurd to try to be a truly effective JavaScript developer while only using a small sliver of what the language has to offer. Can you imagine a construction worker with a toolbox full of tools, who only uses their hammer and scoffs at the screwdriver or tape measure as inferior? That's just silly.
-
-My unreserved claim is that you should go about learning all parts of JavaScript, and where appropriate, use them! And if I may be so bold as to suggest: it's time to discard any JS books that tell you otherwise.
 
 ## The Title?
 
